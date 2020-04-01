@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="top_black">#454f63</color>
+    <color name="num">#414266</color>
+    <color name="gun">#aeafb8</color>
+    <color name="words">#4a495c</color>
+    <color name="box_shadow">#327b7b7b</color>
+    <color name="title">#5e7ce2</color>
+    <color name="title_2">#454f63</color>
+    <color name="bg_edit">#f0f3fb</color>
+    <color name="bg_edit2">#cfdee7</color>
+    <color name="btn">#cfdee7</color>
+    <color name="edi_text">#6b6c6d</color>
+    <color name="edi_holder">#d1d6e0</color>
+    <color name="bg_gray">#eef1f7</color>
+    <color name="set">#2a3763</color>
+    <color name="login">#454f63</color>
+    <color name="line">#ebebeb</color>
+    <color name="bg_n_set">#efefef</color>
+    <color name="m_line">#e5e5e5</color>
+    <color name="m_text">#444444</color>
+    <color name="bg_stamp">#eceff4</color>
+    <color name="btn_pink">#f3868a</color>
+    <color name="btn_app">#4a495c</color>
+    <color name="btn_text">#63666c</color>
+
+
+</resources>

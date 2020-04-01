@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.034" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.966" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.074" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.83" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.185" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.205" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.37" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.645" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.47" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.53" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.795" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.87" />
+
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/guideline1"
+        app:layout_constraintBottom_toBottomOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@id/guideline3"
+        app:layout_constraintRight_toRightOf="@id/guideline4"
+        android:background="@drawable/bg_white_round"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guideline5"
+        app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        android:text="추천요청서 접수"
+        android:textColor="@color/set"
+        android:textSize="@dimen/text_size_6"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guideline7"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        android:text="추천요청서 정보"
+        android:textColor="@color/login"
+        android:textSize="@dimen/text_size_4"
+        android:layout_marginStart="@dimen/margin_1"
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_info"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline9"
+        app:layout_constraintDimensionRatio="1015:470"
+        android:background="@drawable/btn_gray"
+        android:layout_marginTop="@dimen/margin_1"
+        />
+
+
+    <TextView
+        android:id="@+id/text_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guideline10"
+        app:layout_constraintLeft_toLeftOf="@id/guideline11"
+        android:text="요양시설: 윤병진요양병원(1026801261)"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_12"
+        />
+
+    <TextView
+        android:id="@+id/text_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_con"
+        app:layout_constraintLeft_toLeftOf="@id/guideline11"
+        android:text="시설현황: 정원 30(명)"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_12"
+        />
+
+    <TextView
+        android:id="@+id/text_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_limit"
+        app:layout_constraintLeft_toLeftOf="@id/guideline11"
+        android:text="촉탁의사: 김촉탁(999905)"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_12"
+        />
+
+    <TextView
+        android:id="@+id/text_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_doc"
+        app:layout_constraintLeft_toRightOf="@id/guideline11"
+        android:text="의료기관: 유랩스"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_12"
+        />
+
+    <TextView
+        android:id="@+id/text_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_med"
+        app:layout_constraintLeft_toRightOf="@id/guideline11"
+        android:text="[200311051047-1026801261]"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_12"
+        />
+
+
+    <TextView
+        android:id="@+id/text_request"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline14"
+        android:text="추천요청서"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center_vertical"
+        />
+
+   <TextView
+       android:id="@+id/text_request_date"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       app:layout_constraintTop_toTopOf="@id/guideline12"
+       app:layout_constraintLeft_toLeftOf="@id/guideline17"
+       app:layout_constraintRight_toRightOf="@id/guideline15"
+       app:layout_constraintDimensionRatio="325:61"
+       android:background="@drawable/btn_gray"
+       android:text="2020-01-01"
+       android:textColor="@color/btn_text"
+       android:textSize="@dimen/text_size_7"
+       android:gravity="center"
+       />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/guideline12"
+        app:layout_constraintLeft_toLeftOf="@id/guideline13"
+        app:layout_constraintRight_toRightOf="@id/guideline9"
+        app:layout_constraintDimensionRatio="100:70"
+        android:text="추천요청서"
+        android:textSize="@dimen/text_size_7"
+        />
+
+    <TextView
+        android:id="@+id/text_recommend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_request_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline14"
+        android:text="추천서"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_recommend_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_request_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline17"
+        app:layout_constraintRight_toRightOf="@id/guideline15"
+        app:layout_constraintDimensionRatio="325:61"
+        android:background="@drawable/btn_gray"
+        android:text="2020-01-03"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_notify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_recommend_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline14"
+        android:text="지정통보서"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_notify_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_recommend_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline17"
+        app:layout_constraintRight_toRightOf="@id/guideline15"
+        app:layout_constraintDimensionRatio="325:61"
+        android:background="@drawable/btn_gray"
+        android:text="2020-01-05"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_agree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_notify_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline14"
+        android:text="협약서"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_agree_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_notify_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline17"
+        app:layout_constraintRight_toRightOf="@id/guideline15"
+        app:layout_constraintDimensionRatio="325:61"
+        android:background="@drawable/btn_gray"
+        android:text="2020-01-05"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_agree_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline8"
+        app:layout_constraintRight_toRightOf="@id/guideline14"
+        android:text="등록비 입금일자"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_reg_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_agree_date"
+        app:layout_constraintLeft_toLeftOf="@id/guideline17"
+        app:layout_constraintRight_toRightOf="@id/guideline15"
+        app:layout_constraintDimensionRatio="325:61"
+        android:background="@drawable/btn_gray"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_7"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_4"
+        />
+
+   <Button
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       app:layout_constraintTop_toTopOf="@id/guideline21"
+       app:layout_constraintBottom_toBottomOf="@id/guideline16"
+       app:layout_constraintLeft_toLeftOf="@id/guideline11"
+       app:layout_constraintRight_toRightOf="@id/guideline18"
+       android:background="@drawable/btn_round"
+       android:text="확인"
+       android:textColor="@color/white"
+       android:textSize="@dimen/text_size_4"
+       />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/guideline21"
+        app:layout_constraintBottom_toBottomOf="@id/guideline16"
+        app:layout_constraintLeft_toLeftOf="@id/guideline19"
+        app:layout_constraintRight_toRightOf="@id/guideline20"
+        android:background="@drawable/btn_gray"
+        android:text="닫기"
+        android:textColor="@color/btn_text"
+        android:textSize="@dimen/text_size_4"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

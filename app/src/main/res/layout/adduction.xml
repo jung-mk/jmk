@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_log"
+    >
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.26" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.11" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.89" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <TextView
+        android:id="@+id/text_pms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        android:text="PMS"
+        android:textColor="@color/title"
+        android:textSize="@dimen/text_size_0"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_pms"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        android:text="사용자 SMS 인증"
+        android:textColor="@color/title"
+        android:textSize="@dimen/text_size_2"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/text_identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        android:text="아이디"
+        android:textSize="@dimen/text_size_3"
+        android:textColor="@color/title_2"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edit_identity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_identity"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        app:layout_constraintRight_toRightOf="@id/guideline5"
+        app:layout_constraintDimensionRatio="h,1165:170"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="@dimen/margin_3"
+        android:hint="(시설번호 / 면허번호)"
+        android:paddingStart="@dimen/margin_4"
+        />
+
+    <TextView
+        android:id="@+id/text_phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/guideline8"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        android:text="핸드폰번호"
+        android:textSize="@dimen/text_size_3"
+        android:textColor="@color/title_2"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edit_phone_num"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_phone_num"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        app:layout_constraintRight_toRightOf="@id/guideline9"
+        app:layout_constraintDimensionRatio="h,705:160"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="@dimen/margin_3"
+        android:inputType="phone"
+        />
+    <TextView
+        android:id="@+id/text_phone_ent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_phone_num"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        app:layout_constraintRight_toRightOf="@id/guideline9"
+        app:layout_constraintDimensionRatio="h,705:160"
+        android:layout_marginTop="@dimen/margin_3"
+        android:textSize="@dimen/text_size_4"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textColor="@color/edi_holder"
+        android:layout_marginStart="@dimen/margin_4"
+        android:text="핸드폰번호"
+        />
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/text_phone_num"
+        app:layout_constraintLeft_toLeftOf="@id/guideline10"
+        app:layout_constraintRight_toRightOf="@id/guideline5"
+        app:layout_constraintDimensionRatio="h,435:195"
+        android:background="@drawable/sms_round"
+        android:layout_marginTop="@dimen/margin_3"
+        android:text="인증문자 요청"
+        android:textStyle="bold"
+        android:textColor="@color/edi_text"
+
+        />
+    <EditText
+        android:id="@+id/edit_add_num"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone_num"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        app:layout_constraintRight_toRightOf="@id/guideline5"
+        app:layout_constraintDimensionRatio="h,1165:170"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="@dimen/margin_3"
+        android:inputType="phone"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone_num"
+        app:layout_constraintLeft_toLeftOf="@id/guideline4"
+        app:layout_constraintRight_toRightOf="@id/guideline5"
+        app:layout_constraintDimensionRatio="h,1165:170"
+        android:layout_marginTop="@dimen/margin_3"
+        android:textSize="@dimen/text_size_4"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textColor="@color/edi_holder"
+        android:layout_marginStart="@dimen/margin_4"
+        android:text="인증번호 입력"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline3"
+        app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        app:layout_constraintRight_toRightOf="@id/guideline7"
+        app:layout_constraintDimensionRatio="h,1165:180"
+        android:background="@drawable/btn_round"
+        android:text="인증"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_3"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
