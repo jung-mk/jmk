@@ -20,6 +20,6 @@
     <dimen name="margin_4">10dp</dimen>
     <dimen name="margin_6">5dp</dimen>
     <dimen name="margin_7">1.5dp</dimen>
-
+    <dimen name="margin_8">3dp</dimen>
 
 </resources>

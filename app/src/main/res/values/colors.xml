@@ -28,6 +28,6 @@
     <color name="btn_pink">#f3868a</color>
     <color name="btn_app">#4a495c</color>
     <color name="btn_text">#63666c</color>
-
+    <color name="text_in">#adaeae</color>
 
 </resources>
