@@ -29,5 +29,5 @@
     <color name="btn_app">#4a495c</color>
     <color name="btn_text">#63666c</color>
     <color name="text_in">#adaeae</color>
-
+    <color name="edge">#f2f5f7</color>
 </resources>

@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.82" />
+        app:layout_constraintGuide_percent="0.825" />
 
     <ImageView
         android:layout_width="0dp"
@@ -68,10 +68,11 @@
 
     <LinearLayout
         android:id="@+id/layout_content"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="@id/guideline5"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        app:layout_constraintRight_toRightOf="@id/guideline7"
         android:orientation="vertical"
         >
         <TextView
@@ -84,10 +85,10 @@
             />
 
         <TextView
-            android:layout_width="264dp"
+            android:layout_width="match_parent"
             android:layout_height="24dp"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:layout_marginStart="10dp"
             android:text="촉탁의사 이름"
             android:textColor="@color/text_in"
@@ -98,7 +99,7 @@
             />
 
         <TextView
-            android:layout_width="264dp"
+            android:layout_width="match_parent"
             android:layout_height="24dp"
             android:background="@drawable/btn_gray"
             android:layout_marginTop="7dp"
@@ -112,7 +113,7 @@
             />
 
         <TextView
-            android:layout_width="264dp"
+            android:layout_width="match_parent"
             android:layout_height="24dp"
             android:background="@drawable/btn_gray"
             android:layout_marginTop="7dp"
@@ -133,50 +134,38 @@
             android:textSize="@dimen/text_size_4"
             android:textColor="@color/btn_text"
             />
-        
-    </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/layout_date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/layout_content"
-        app:layout_constraintLeft_toLeftOf="@id/guideline6"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp"
-
-        >
-        <TextView
+        <LinearLayout
+            android:id="@+id/layout_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="협약일"
-            android:textSize="@dimen/text_size_4"
-            android:textColor="@color/btn_text"
-            android:layout_marginStart="15dp"
-            />
+            app:layout_constraintTop_toBottomOf="@id/layout_content"
+            app:layout_constraintLeft_toLeftOf="@id/guideline6"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+             >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="협약일"
+                android:textSize="@dimen/text_size_4"
+                android:textColor="@color/btn_text"
+                android:layout_marginStart="15dp"
+                />
         
-        <TextView
-            android:layout_width="90dp"
-            android:layout_height="20dp"
-            android:background="@drawable/btn_gray"
-            android:layout_marginStart="@dimen/margin_3"
-            android:textColor="@color/text_in"
-            android:textSize="@dimen/text_size_10"
-            android:text="2020-04-02"
-            android:gravity="center"
-            />
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:background="@drawable/btn_gray"
+                android:layout_marginStart="@dimen/margin_3"
+                android:textColor="@color/text_in"
+                android:textSize="@dimen/text_size_10"
+                android:text="2020-04-02"
+                android:gravity="center"
+                />
         
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/layout_date"
-        app:layout_constraintLeft_toLeftOf="@id/guideline6"
-        app:layout_constraintRight_toRightOf="@id/guideline7"
-        android:layout_marginTop="25dp"
-        android:orientation="vertical"
-        >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -184,15 +173,53 @@
             android:textSize="@dimen/text_size_4"
             android:textColor="@color/btn_text"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/layout_content"
+        app:layout_constraintLeft_toLeftOf="@id/guideline3"
+        app:layout_constraintRight_toRightOf="@id/guideline4"
+        android:orientation="vertical"
+        >
 
         <ImageView
             android:layout_width="130dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
+            android:background="@drawable/agg_edge"
+            />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_shoot"
+            android:layout_marginTop="5dp"
+            android:text="협약서 촬영"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_size_10"
+            style="?android:attr/borderlessButtonStyle"
             />
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        app:layout_constraintRight_toRightOf="@id/guideline7"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="서류접수"
+        android:textColor="@color/white"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
