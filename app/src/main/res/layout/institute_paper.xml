@@ -93,16 +93,16 @@
             android:text="촉탁의사 이름"
             android:textColor="@color/text_in"
             android:textSize="@dimen/text_size_10"
-            android:layout_gravity="center_vertical"
             android:paddingStart="@dimen/margin_6"
             android:paddingTop="@dimen/margin_8"
+            android:layout_gravity="center_vertical"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="24dp"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="5dp"
             android:layout_marginStart="10dp"
             android:text="소속 의료기관"
             android:textColor="@color/text_in"
@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="24dp"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="5dp"
             android:layout_marginStart="10dp"
             android:text="연락처"
             android:textColor="@color/text_in"
@@ -153,14 +153,13 @@
                 android:layout_marginStart="15dp"
                 />
         
-            <TextView
+            <EditText
                 android:layout_width="90dp"
                 android:layout_height="20dp"
                 android:background="@drawable/btn_gray"
                 android:layout_marginStart="@dimen/margin_3"
                 android:textColor="@color/text_in"
                 android:textSize="@dimen/text_size_10"
-                android:text="2020-04-02"
                 android:gravity="center"
                 />
         
