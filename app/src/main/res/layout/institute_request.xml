@@ -144,6 +144,7 @@
             android:background="@drawable/btn_gray"
             android:layout_marginTop="8dp"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:textSize="@dimen/text_size_10"
             android:layout_gravity="center_vertical"
             android:paddingStart="@dimen/margin_6"
@@ -156,6 +157,7 @@
             android:background="@drawable/btn_gray"
             android:layout_marginTop="5dp"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:textSize="@dimen/text_size_10"
             android:layout_gravity="center_vertical"
             android:paddingStart="@dimen/margin_6"
@@ -168,17 +170,61 @@
             android:background="@drawable/btn_gray"
             android:layout_marginTop="5dp"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:textSize="@dimen/text_size_10"
             android:layout_gravity="center_vertical"
             android:paddingStart="@dimen/margin_6"
             android:hint="연락처"
             android:textColorHint="@color/text_in"
             />
-
-
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="@id/guideline6"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. "
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역의사회를 통해 추천받은 후보자를 지정하지 않거나 재 추천을 요구하는 경우, 그 사유(100자 이내)"
+                android:textColor="@color/btn_text"
+                android:textSize="@dimen/text_size_10"
+                android:layout_marginTop="15dp"
+                />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_gray"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="@dimen/text_size_10"
+            android:paddingStart="@dimen/margin_6"
+            android:hint="사유"
+            android:textColorHint="@color/text_in"
+            />
 
     </LinearLayout>
-
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        app:layout_constraintRight_toRightOf="@id/guideline7"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="서류접수"
+        android:textColor="@color/white"
+        />
 
 
 
