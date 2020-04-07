@@ -99,14 +99,15 @@
         app:layout_constraintTop_toBottomOf="@id/layout_content"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintDimensionRatio="1015:396"
+        app:layout_constraintDimensionRatio="1015:400"
         android:background="@drawable/btn_gray"
         android:layout_marginTop="@dimen/margin_1"
         />
     <LinearLayout
         android:id="@+id/layout_info"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1015:400"
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
@@ -141,36 +142,75 @@
             android:layout_marginTop="@dimen/margin_8"
             android:layout_marginStart="@dimen/margin_3"
             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[20020712301-123344567]"
+                android:textSize="@dimen/text_size_12"
+                android:layout_marginStart="@dimen/margin_3"
+                android:layout_gravity="center"
+                android:textColor="@color/login"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="24dp"
+                android:background="@drawable/btn_round"
+                android:text="서류확인"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                />
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout_num"
+        android:id="@+id/layout_memo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
         app:layout_constraintTop_toBottomOf="@id/layout_info"
-        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginTop="20dp"
         >
-
         <TextView
+            android:id="@+id/text_memo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="[20020712301-123344567]"
-            android:textSize="@dimen/text_size_12"
-            android:layout_marginStart="@dimen/margin_3"
-            android:layout_gravity="center"
+            android:text="승인/반려 메모"
+            android:textSize="@dimen/text_size_4"
+            android:textColor="@color/title_2"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/text_memo"
+            app:layout_constraintLeft_toLeftOf="@id/guideline6"
+            app:layout_constraintRight_toRightOf="@id/guideline7"
+            app:layout_constraintDimensionRatio="1015:291"
+            android:background="@drawable/btn_gray"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/btn_round"
-            android:text="서류확인"
-            android:textColor="@color/white"
-            />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
