@@ -30,4 +30,5 @@
     <color name="btn_text">#63666c</color>
     <color name="text_in">#adaeae</color>
     <color name="edge">#f2f5f7</color>
+    <color name="btn_clo">#e1e6ef</color>
 </resources>

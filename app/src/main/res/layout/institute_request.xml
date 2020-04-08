@@ -38,21 +38,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.074" />
+        app:layout_constraintGuide_percent="0.065" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
+        app:layout_constraintGuide_percent="0.155" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
+        app:layout_constraintGuide_percent="0.845" />
 
     <ImageView
         android:layout_width="0dp"
@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:text="당해 시설에 촉탁의사를 지정하기 위하여 추천을 의뢰 하오니 추천하여 주시기 바랍니다."
             android:textColor="@color/btn_text"
             android:textSize="@dimen/text_size_10"
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="@id/guideline6"
             android:orientation="horizontal"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="6dp"
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -107,6 +107,7 @@
                 android:text="현 입소인원"
                 android:textColor="@color/btn_text"
                 android:textSize="@dimen/text_size_10"
+
                 />
 
             <EditText
@@ -114,9 +115,11 @@
                 android:layout_height="20dp"
                 android:background="@drawable/btn_gray"
                 android:layout_marginStart="@dimen/margin_6"
-                android:textColor="@color/text_in"
                 android:textSize="@dimen/text_size_10"
                 android:gravity="center"
+                android:textColor="@color/btn_text"
+                android:textColorHint="@color/text_in"
+
                 />
         </LinearLayout>
 
@@ -126,7 +129,7 @@
             android:text="1. 추천을 요청하는 의사"
             android:textColor="@color/btn_text"
             android:textSize="@dimen/text_size_10"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             />
         <TextView
             android:layout_width="match_parent"
@@ -149,6 +152,7 @@
             android:layout_gravity="center_vertical"
             android:paddingStart="@dimen/margin_6"
             android:hint="촉탁의사 이름"
+            android:textColor="@color/btn_text"
             android:textColorHint="@color/text_in"
             />
         <EditText
@@ -163,6 +167,7 @@
             android:paddingStart="@dimen/margin_6"
             android:hint="소속 의료기관"
             android:textColorHint="@color/text_in"
+            android:textColor="@color/btn_text"
             />
         <EditText
             android:layout_width="match_parent"
@@ -176,19 +181,21 @@
             android:paddingStart="@dimen/margin_6"
             android:hint="연락처"
             android:textColorHint="@color/text_in"
+            android:textColor="@color/btn_text"
             />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="@id/guideline6"
             android:orientation="horizontal"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
+
             >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2. "
-                android:layout_marginTop="15dp"
+                android:textSize="@dimen/text_size_10"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -196,7 +203,6 @@
                 android:text="지역의사회를 통해 추천받은 후보자를 지정하지 않거나 재 추천을 요구하는 경우, 그 사유(100자 이내)"
                 android:textColor="@color/btn_text"
                 android:textSize="@dimen/text_size_10"
-                android:layout_marginTop="15dp"
                 />
         </LinearLayout>
         <EditText
@@ -207,6 +213,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:textSize="@dimen/text_size_10"
+            android:textColor="@color/btn_text"
             android:paddingStart="@dimen/margin_6"
             android:hint="사유"
             android:textColorHint="@color/text_in"
@@ -215,7 +222,7 @@
     </LinearLayout>
     <Button
         android:layout_width="0dp"
-        android:layout_height="36dp"
+        android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="@id/guideline2"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
@@ -224,6 +231,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:text="서류접수"
         android:textColor="@color/white"
+        android:textSize="@dimen/text_size_10"
         />
 
 
