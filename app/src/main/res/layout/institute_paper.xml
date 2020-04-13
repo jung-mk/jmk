@@ -86,11 +86,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="24dp"
+            android:layout_height="@dimen/hei_1"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/margin_9"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"
             android:text="촉탁의사 이름"
             android:textColor="@color/text_in"
             android:textSize="@dimen/text_size_10"
@@ -101,11 +101,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="24dp"
+            android:layout_height="@dimen/hei_1"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/margin_6"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_6"
             android:text="소속 의료기관"
             android:textColor="@color/text_in"
             android:textSize="@dimen/text_size_10"
@@ -116,11 +116,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="24dp"
+            android:layout_height="@dimen/hei_1"
             android:background="@drawable/btn_gray"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginTop="@dimen/margin_6"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_6"
             android:text="연락처"
             android:textColor="@color/text_in"
             android:textSize="@dimen/text_size_10"
@@ -132,7 +132,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:text="1.지정통보서"
             android:textSize="@dimen/text_size_4"
             android:textColor="@color/btn_text"
@@ -145,7 +145,7 @@
             app:layout_constraintTop_toBottomOf="@id/layout_content"
             app:layout_constraintLeft_toLeftOf="@id/guideline6"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10"
              >
             <TextView
                 android:layout_width="wrap_content"
@@ -153,12 +153,12 @@
                 android:text="협약일"
                 android:textSize="@dimen/text_size_4"
                 android:textColor="@color/btn_text"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="@dimen/margin_9"
                 />
         
             <EditText
-                android:layout_width="90dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_1"
+                android:layout_height="@dimen/hei_2"
                 android:background="@drawable/btn_gray"
                 android:layout_marginStart="@dimen/margin_3"
                 android:textColor="@color/text_in"
@@ -175,7 +175,7 @@
             android:textSize="@dimen/text_size_4"
             android:textColor="@color/btn_text"
             android:layout_gravity="left"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_10"
             />
     </LinearLayout>
 
@@ -190,18 +190,18 @@
         >
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="148dp"
+            android:layout_width="@dimen/wid_2"
+            android:layout_height="@dimen/hei_3"
             android:layout_gravity="center"
             android:background="@drawable/agg_edge"
             />
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/wid_2"
+            android:layout_height="@dimen/hei_1"
             android:layout_gravity="center"
             android:background="@drawable/btn_shoot"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="@dimen/margin_6"
             android:text="협약서 촬영"
             android:textColor="@color/title"
             android:textSize="@dimen/text_size_10"
@@ -213,12 +213,12 @@
     <Button
         android:id="@+id/btn_doc_submit"
         android:layout_width="0dp"
-        android:layout_height="32dp"
+        android:layout_height="@dimen/hei_4"
         app:layout_constraintTop_toBottomOf="@+id/layout_camera_scan"
         app:layout_constraintBottom_toBottomOf="@id/guideline2"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="@dimen/margin_10"
         app:layout_constraintVertical_bias="0.9"
         android:background="@drawable/btn_round"
         style="?android:attr/borderlessButtonStyle"

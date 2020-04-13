@@ -31,4 +31,6 @@
     <color name="text_in">#adaeae</color>
     <color name="edge">#f2f5f7</color>
     <color name="btn_clo">#e1e6ef</color>
+    <color name="btn_blue">#A0B5FF</color>
+    <color name="btn_return">#F8E6E7</color>
 </resources>
