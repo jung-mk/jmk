@@ -487,63 +487,12 @@
             android:layout_marginStart="@dimen/margin_3"
             android:background="@drawable/manager_btn"
             android:layout_gravity="bottom"
-            android:text="직수정"
+            android:text="직인수정"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_8" />
 
     </LinearLayout>
 
     </LinearLayout>
-
-
-
-<!--    <ImageView-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintTop_toTopOf="@id/guideline37"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/guideline38"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/guideline11"-->
-<!--        app:layout_constraintRight_toRightOf="@id/guideline12"-->
-<!--        android:background="@drawable/manager_stamp"-->
-<!--        />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintTop_toTopOf="@id/guideline37"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/guideline38"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/guideline12"-->
-<!--        app:layout_constraintRight_toRightOf="@id/guideline13"-->
-<!--        android:layout_marginStart="@dimen/margin_1"-->
-<!--        android:text="직인"-->
-<!--        android:textSize="@dimen/text_size_8"-->
-<!--        android:textColor="@color/top_black"-->
-<!--        />-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/img_stamp"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintTop_toTopOf="@id/guideline37"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/guideline13"-->
-<!--        app:layout_constraintRight_toRightOf="@id/guideline"-->
-<!--        app:layout_constraintDimensionRatio="h,191:191"-->
-<!--        android:background="@color/bg_stamp"-->
-<!--        />-->
-
-<!--    <Button-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/guideline39"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/guideline41"-->
-<!--        app:layout_constraintRight_toRightOf="@id/guideline40"-->
-<!--        app:layout_constraintDimensionRatio="h,191:55"-->
-<!--        android:layout_marginTop="@dimen/margin_6"-->
-<!--        android:background="@drawable/manager_btn"-->
-<!--        android:text="직인수정"-->
-<!--        android:textSize="@dimen/text_size_9"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:layout_marginStart="@dimen/margin_1"-->
-<!--        />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

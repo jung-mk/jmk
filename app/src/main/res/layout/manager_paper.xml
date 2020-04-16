@@ -64,7 +64,6 @@
         app:layout_constraintRight_toRightOf="@id/guideline4"
         app:layout_constraintTop_toTopOf="@id/guideline1" />
 
-
     <LinearLayout
         android:id="@+id/layout_head"
         android:layout_width="wrap_content"
@@ -353,20 +352,20 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="@dimen/hei_4"
+            android:layout_marginEnd="@dimen/margin_9"
             android:background="@drawable/btn_round"
             android:text="승인"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_size_4"
-            android:layout_marginEnd="@dimen/margin_9"/>
+            android:textSize="@dimen/text_size_4" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="@dimen/hei_4"
+            android:layout_marginStart="@dimen/margin_9"
             android:background="@drawable/btn_disapprove"
             android:text="반려"
             android:textColor="@color/gun"
-            android:textSize="@dimen/text_size_4"
-            android:layout_marginStart="@dimen/margin_9"/>
+            android:textSize="@dimen/text_size_4" />
 
     </LinearLayout>
 
