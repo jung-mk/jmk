@@ -83,7 +83,9 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_9"
+            android:layout_marginStart="@dimen/margin_4">
 
             <ImageView
                 android:layout_width="@dimen/hei_2"
@@ -96,7 +98,7 @@
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="로그인 설정"
                 android:textColor="@color/login"
-                android:textSize="@dimen/text_size_11" />
+                android:textSize="@dimen/text_size_4" />
 
         </LinearLayout>
 
