@@ -71,8 +71,7 @@
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintTop_toTopOf="@id/guideline5"
-        >
+        app:layout_constraintTop_toTopOf="@id/guideline5">
 
         <TextView
             android:layout_width="wrap_content"
@@ -80,102 +79,94 @@
             android:text="촉탁의사 지정 내용"
             android:textColor="@color/set"
             android:textSize="@dimen/text_size_6"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="촉탁 승인 정보"
-            android:textSize="@dimen/text_size_4"
-            android:textColor="@color/title_2"
             android:layout_marginTop="10dp"
-            />
+            android:text="촉탁 승인 정보"
+            android:textColor="@color/title_2"
+            android:textSize="@dimen/text_size_4" />
     </LinearLayout>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/layout_content"
+        android:layout_marginTop="@dimen/margin_1"
+        android:background="@drawable/btn_gray"
+        app:layout_constraintDimensionRatio="1015:400"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintDimensionRatio="1015:400"
-        android:background="@drawable/btn_gray"
-        android:layout_marginTop="@dimen/margin_1"
-        />
+        app:layout_constraintTop_toBottomOf="@id/layout_content" />
+
     <LinearLayout
         android:id="@+id/layout_info"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintDimensionRatio="1015:400"
+        android:layout_marginTop="@dimen/margin_1"
         android:orientation="vertical"
+        app:layout_constraintDimensionRatio="1015:400"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintTop_toBottomOf="@id/layout_content"
-        android:layout_marginTop="@dimen/margin_1"
-        >
+        app:layout_constraintTop_toBottomOf="@id/layout_content">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_3"
             android:text="요청 요양시실: 한국요양병원 (12345678)"
             android:textColor="@color/login"
-            android:textSize="@dimen/text_size_12"
-            android:layout_marginTop="@dimen/margin_3"
-            android:layout_marginStart="@dimen/margin_3"
-            />
+            android:textSize="@dimen/text_size_12" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_8"
             android:text="추천의사 : 이추천 (이내과의원)"
             android:textColor="@color/login"
-            android:textSize="@dimen/text_size_12"
-            android:layout_marginTop="@dimen/margin_8"
-            android:layout_marginStart="@dimen/margin_3"
-            />
+            android:textSize="@dimen/text_size_12" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_marginTop="@dimen/margin_8"
             android:text="추천 요청일 : 2020-02-07"
             android:textColor="@color/login"
-            android:textSize="@dimen/text_size_12"
-            android:layout_marginTop="@dimen/margin_8"
-            android:layout_marginStart="@dimen/margin_3"
-            />
+            android:textSize="@dimen/text_size_12" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="@dimen/margin_1"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="[20020712301-123344567]"
-                android:textSize="@dimen/text_size_12"
-                android:layout_marginStart="@dimen/margin_3"
                 android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_3"
+                android:text="[20020712301-123344567]"
                 android:textColor="@color/login"
-                />
+                android:textSize="@dimen/text_size_12" />
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                />
+                android:layout_weight="1" />
 
             <Button
                 android:layout_width="65dp"
                 android:layout_height="24dp"
-                android:background="@drawable/btn_round"
-                android:text="서류확인"
-                android:textSize="@dimen/text_size_12"
-                android:textColor="@color/white"
                 android:layout_gravity="right"
                 android:layout_marginRight="10dp"
-                />
+                android:background="@drawable/btn_round"
+                android:text="서류확인"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
 
         </LinearLayout>
 
@@ -185,77 +176,75 @@
         android:id="@+id/layout_memo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintTop_toBottomOf="@id/layout_info"
-        android:layout_marginTop="15dp"
-        >
+        app:layout_constraintTop_toBottomOf="@id/layout_info">
+
         <TextView
             android:id="@+id/text_memo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="승인/반려 메모"
-            android:textSize="@dimen/text_size_4"
             android:textColor="@color/title_2"
-            />
+            android:textSize="@dimen/text_size_4" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:layout_constraintTop_toBottomOf="@id/text_memo"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_gray"
+            android:textColor="@color/title_2"
+            android:textSize="@dimen/text_size_12"
             app:layout_constraintLeft_toLeftOf="@id/guideline6"
             app:layout_constraintRight_toRightOf="@id/guideline7"
-            android:background="@drawable/btn_gray"
-            android:layout_marginTop="5dp"
-            android:textSize="@dimen/text_size_12"
-            android:textColor="@color/title_2"
-            />
+            app:layout_constraintTop_toBottomOf="@id/text_memo" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="@id/guideline6"
-        app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintBottom_toBottomOf="@id/guideline2"
         android:layout_marginBottom="15dp"
-        >
+        app:layout_constraintBottom_toBottomOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@id/guideline6"
+        app:layout_constraintRight_toRightOf="@id/guideline7">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="36dp"
+            android:layout_marginRight="5.5dp"
             android:layout_weight="1"
-            android:text="승인"
-            android:textSize="@dimen/text_size_4"
             android:background="@drawable/btn_round"
+            android:text="승인"
             android:textColor="@color/white"
-            android:layout_marginRight="5.5dp"
+            android:textSize="@dimen/text_size_4"
 
             />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="36dp"
+            android:layout_marginRight="5.5dp"
             android:layout_weight="1"
-            android:text="반려"
-            android:textSize="@dimen/text_size_4"
             android:background="@drawable/btn_return"
+            android:text="반려"
             android:textColor="@color/white"
-            android:layout_marginRight="5.5dp"
+            android:textSize="@dimen/text_size_4"
 
             />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="36dp"
             android:layout_weight="1"
-            android:text="닫기"
-            android:textSize="@dimen/text_size_4"
             android:background="@drawable/btn_close"
+            android:text="닫기"
             android:textColor="@color/gun"
-            />
+            android:textSize="@dimen/text_size_4" />
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

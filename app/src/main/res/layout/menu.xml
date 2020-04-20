@@ -1,290 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.09" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.08" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.92" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.215" />
+        app:layout_constraintGuide_percent="0.86" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.17" />
+        app:layout_constraintGuide_percent="0.155" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
+        android:id="@+id/guideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.23" />
+        app:layout_constraintGuide_percent="0.10" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2475" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.26" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.27" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.83" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2925" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.325" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.2875" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.3475" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.37" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4025" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.425" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.365" />
-
+    <Button
+        android:id="@+id/btn_x"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/title"
+        android:text="×"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/text_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Menu"
         android:textColor="@color/title"
         android:textSize="@dimen/text_size_0"
         android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="@id/guideline3"
-        app:layout_constraintTop_toTopOf="@id/guideline2" />
-
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="@color/m_line"
-        app:layout_constraintLeft_toLeftOf="@id/guideline9"
-        app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline11" />
-
-    <ImageView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/menu_info"
-        app:layout_constraintBottom_toBottomOf="@id/guideline15"
-        app:layout_constraintLeft_toLeftOf="@id/guideline6"
-        app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintTop_toTopOf="@id/guideline14" />
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="직인/서명변경"
-        android:textColor="@color/m_text"
-        android:textSize="@dimen/text_size_3"
-        app:layout_constraintBottom_toBottomOf="@id/guideline15"
-        app:layout_constraintLeft_toLeftOf="@id/guideline9"
-        app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline16" />
-
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="@dimen/margin_7"
-        android:layout_marginBottom="@dimen/margin_7"
-        android:background="@drawable/menu_direction"
-        app:layout_constraintBottom_toBottomOf="@+id/guideline15"
-        app:layout_constraintLeft_toLeftOf="@+id/guideline12"
-        app:layout_constraintRight_toRightOf="@+id/guideline13"
-        app:layout_constraintTop_toTopOf="@id/guideline14" />
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="@color/m_line"
-        app:layout_constraintLeft_toLeftOf="@id/guideline9"
-        app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline17" />
-
-    <ImageView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/menu_set"
-        app:layout_constraintBottom_toBottomOf="@id/guideline19"
-        app:layout_constraintLeft_toLeftOf="@id/guideline6"
-        app:layout_constraintRight_toRightOf="@id/guideline7"
-        app:layout_constraintTop_toTopOf="@id/guideline18" />
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="환경설정"
-        android:textColor="@color/m_text"
-        android:textSize="@dimen/text_size_3"
-        app:layout_constraintBottom_toBottomOf="@id/guideline19"
-        app:layout_constraintLeft_toLeftOf="@id/guideline9"
-        app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline21" />
-
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="@dimen/margin_7"
-        android:layout_marginBottom="@dimen/margin_7"
-        android:background="@drawable/menu_direction"
-        app:layout_constraintBottom_toBottomOf="@+id/guideline19"
-        app:layout_constraintLeft_toLeftOf="@+id/guideline12"
-        app:layout_constraintRight_toRightOf="@+id/guideline13"
-        app:layout_constraintTop_toTopOf="@id/guideline21" />
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="@color/m_line"
-        app:layout_constraintLeft_toLeftOf="@id/guideline9"
-        app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline20" />
-
-    <!--    <Button-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-    <!--        android:layout_width="60dp"-->
-    <!--        android:layout_height="60dp"-->
-    <!--        android:background="@color/title"-->
-    <!--        android:text="×"-->
-    <!--        android:textColor="@color/white"-->
-    <!--        android:textSize="@dimen/text_size_1"/>-->
-
+        app:layout_constraintLeft_toLeftOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_x" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_9"
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideline6"
         app:layout_constraintRight_toRightOf="@id/guideline4"
-        app:layout_constraintTop_toTopOf="@id/guideline5">
+        app:layout_constraintTop_toBottomOf="@+id/text_menu">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="@dimen/hei_1"
-                android:layout_height="@dimen/hei_1"
-                android:background="@drawable/menu_info" />
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_9"
-                android:text="등록정보"
-                android:textColor="@color/m_text"
-                android:textSize="@dimen/text_size_3" />
+                android:orientation="horizontal">
 
-            <View
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="@dimen/hei_2"
+                    android:layout_height="@dimen/hei_2"
+                    android:layout_marginTop="@dimen/margin_6"
+                    android:background="@drawable/menu_info" />
 
-            <Button
-                android:layout_width="@dimen/margin_4"
-                android:layout_height="@dimen/hei_2"
-                android:layout_marginEnd="@dimen/hei_4"
-                android:background="@drawable/menu_direction" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_9"
+                    android:text="등록정보"
+                    android:textColor="@color/m_text"
+                    android:textSize="@dimen/text_size_3" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="@dimen/margin_4"
+                    android:layout_height="@dimen/hei_2"
+                    android:background="@drawable/menu_direction" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@color/m_line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/hei_2"
+                    android:layout_height="@dimen/hei_2"
+                    android:layout_marginTop="@dimen/margin_6"
+                    android:background="@drawable/menu_info" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_9"
+                    android:text="직인/서명변경"
+                    android:textColor="@color/m_text"
+                    android:textSize="@dimen/text_size_3" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="@dimen/margin_4"
+                    android:layout_height="@dimen/hei_2"
+                    android:background="@drawable/menu_direction" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@color/m_line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/hei_2"
+                    android:layout_height="@dimen/hei_2"
+                    android:layout_marginTop="@dimen/margin_6"
+                    android:background="@drawable/menu_set" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_9"
+                    android:text="환경설정"
+                    android:textColor="@color/m_text"
+                    android:textSize="@dimen/text_size_3" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="@dimen/margin_4"
+                    android:layout_height="@dimen/hei_2"
+                    android:background="@drawable/menu_direction" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@color/m_line" />
 
         </LinearLayout>
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
