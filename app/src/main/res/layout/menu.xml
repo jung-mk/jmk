@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginStart="38dp"
+                android:layout_marginStart="@dimen/margin_11"
                 android:layout_marginTop="@dimen/margin_4"
                 android:background="@color/m_line" />
 
@@ -142,7 +142,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginStart="38dp"
+                android:layout_marginStart="@dimen/margin_11"
                 android:layout_marginTop="@dimen/margin_4"
                 android:background="@color/m_line" />
 
@@ -188,7 +188,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginStart="38dp"
+                android:layout_marginStart="@dimen/margin_11"
                 android:layout_marginTop="@dimen/margin_4"
                 android:background="@color/m_line" />
 

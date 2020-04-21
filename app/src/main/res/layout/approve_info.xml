@@ -83,19 +83,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/hei_2"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_id" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="승인위원 번호"
                 android:textColor="@color/top_black"
@@ -103,7 +103,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="12345678"
                 android:textColor="@color/top_black"
@@ -113,19 +113,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_de_name" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="소속기관 이름"
                 android:textColor="@color/top_black"
@@ -133,7 +133,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="한국요양병원"
                 android:textColor="@color/top_black"
@@ -144,19 +144,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_name" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="승인위원 이름"
                 android:textColor="@color/top_black"
@@ -164,7 +164,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="김대한"
                 android:textColor="@color/top_black"
@@ -175,19 +175,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_marginTop="@dimen/margin_7"
                 android:layout_weight="0"
                 android:background="@drawable/manager_add" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="주소"
                 android:textColor="@color/top_black"
@@ -195,7 +195,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/text_size_0"
                 android:layout_weight="3"
                 android:lineSpacingExtra="@dimen/margin_1"
                 android:text="경기도 군포시 고산로 166 sk벤티움 103동 102호"
@@ -207,19 +207,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_4"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_call" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="전화번호"
                 android:textColor="@color/top_black"
@@ -227,7 +227,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="031-123-1234"
                 android:textColor="@color/top_black"
@@ -238,19 +238,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_fax" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="팩스번호"
                 android:textColor="@color/top_black"
@@ -258,7 +258,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="031-123-4567"
                 android:textColor="@color/top_black"
@@ -269,19 +269,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0"
                 android:background="@drawable/manager_phone" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="핸드폰 번호"
                 android:textColor="@color/top_black"
@@ -289,7 +289,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="@dimen/hei_2"
                 android:layout_weight="3"
                 android:text="010-1234-5678"
                 android:textColor="@color/top_black"
@@ -300,18 +300,18 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/margin_9"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="16dp"
-                android:layout_height="16dp"
+                android:layout_width="@dimen/text_size_6"
+                android:layout_height="@dimen/text_size_6"
                 android:layout_weight="0"
                 android:background="@drawable/approve_sign" />
 
             <TextView
-                android:layout_width="84dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/wid_3"
+                android:layout_height="@dimen/hei_2"
                 android:layout_marginStart="@dimen/margin_1"
                 android:text="서명"
                 android:textColor="@color/top_black"
@@ -323,13 +323,13 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="@dimen/wid_4"
+                    android:layout_height="@dimen/wid_4"
                     android:background="@color/bg_stamp" />
 
                 <Button
-                    android:layout_width="60dp"
-                    android:layout_height="20dp"
+                    android:layout_width="@dimen/wid_4"
+                    android:layout_height="@dimen/hei_2"
                     android:layout_marginTop="@dimen/margin_6"
                     android:background="@drawable/manager_btn"
                     android:text="서명수정"
